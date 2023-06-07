@@ -1,13 +1,13 @@
-#Scrapy Parse Pep
+# Scrapy Parse Pep
 
-##Описание проекта
+## Описание проекта
 
 Парсинг сайта [документов PEP](https://peps.python.org/) на базе фреймворка Scrappy и сохранение данных в .csv файл.  
 Парсер выводит собранную информацию в два файла .csv:  
 1. Вывод списка всех PEP: номер, название и статус  
 2. Сводка по статусам PEP - сколько найдено документов в каждом статусе(статус, количество).  
 
-##Установка и использование
+## Установка и использование
 
 **[Скопировать репозиторий](https://github.com/petrovi-4/scrapy_parser_pep.git)**
 
@@ -26,7 +26,7 @@ python - pip install --upgrade pip
 ```
 pip install -r requirements.txt
 ```
-##Запуск парсера
+## Запуск парсера
 
 Для сбора информации запустить парсер:
 
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 scrapy crawl pep
 ```
 
-####Автор: [petrovi-4](https://github.com/petrovi-4)
+#### Автор: [petrovi-4](https://github.com/petrovi-4)
 
 ![GitHub User's stars](https://img.shields.io/github/stars/petrovi-4?label=Stars&style=social)
 ![licence](https://img.shields.io/badge/licence-GPL--3.0-green)
