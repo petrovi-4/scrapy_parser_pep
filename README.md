@@ -29,3 +29,8 @@ pip install -r requirements.txt
 ```
 scrapy crawl pep
 ```
+####Автор
+[petrovi-4](https://github.com/petrovi-4)
+
+![GitHub User's stars](https://img.shields.io/github/stars/petrovi-4?label=Stars&style=social)
+![licence](https://img.shields.io/badge/licence-GPL--3.0-green)
